@@ -11,7 +11,7 @@ var currentTime = new Date().getHours();
      if (0 <= currentTime && currentTime>=22){
         $(".textarea").addClass("present");
       }
-      
+
  
 
 
@@ -28,12 +28,3 @@ localStorage.setItem("save", text);
 localStorage.getItem("saveBtn");
 }
 );
-
-
-   
-
-
-
-//function update() {
-    //moment().format('dddd, MMMM, Do');
-//$('#currentDay').text(moment().format('dddd, MMMM Do'));
